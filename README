@@ -1,0 +1,21 @@
+### Expansions Overview
+
+1. **GUI Interface**: Implemented a graphical user interface (GUI) for the Chinese Checkers game, enhancing user interaction through visual board representation, clickable actions for moves, and buttons for game controls.
+   
+2. **Tests in Pytest**: Developed a comprehensive suite of automated tests using Pytest to verify the game's logic, player actions, computer-generated moves, and overall game integrity through various scenarios.
+   
+3. **Audio Support**: Added audio feedback for game actions such as moves, jumps, and win conditions, enriching the user experience with auditory cues corresponding to in-game events.
+
+### Expansion Details
+
+1. **GUI Interface**
+
+   The GUI interface expansion is the most significant enhancement, transforming the game from a text-based to a visually interactive experience. It involves the creation of a graphical board where players can see their pieces and possible moves, interact with the game through mouse clicks, and receive immediate visual feedback on their actions. This interface is built using a library like Tkinter, which supports window creation, event handling, and drawing graphical components. Running this extension involves launching the game through a Python script that initializes the GUI and handles the game loop, interpreting player inputs as game actions.
+
+2. **Tests in Pytest**
+
+   Introducing tests in Pytest marks a critical development step, focusing on ensuring the game's reliability and correctness. This expansion involves writing test cases that cover unit testing for individual components like game logic, player behavior, and system integration tests that simulate realistic game scenarios. The tests verify that game rules are correctly enforced, computer players make valid moves, and the game state progresses as expected. Running these tests requires the Pytest framework, where executing the `pytest` command in the terminal within the project directory automatically finds and runs all test cases, reporting successes and failures.
+
+3. **Audio Support**
+
+   Audio support adds an immersive layer to the game, providing players with auditory feedback for actions and events within the game. This expansion involves integrating sound effects for movements and winning the game.
